@@ -1,0 +1,19 @@
+<div class="detalhes" *ngIf="student">
+
+      <h2>Detalhes do aluno: {{student.name}}</h2>
+      <div><span>id: </span>{{student.id}}</div>
+      <div class="dados">
+            <label for="student-name">Nome do aluno: </label>
+            <input id="student-name" [(ngModel)]="student.name" placeholder="Nome do aluno">
+            
+            <label for="student-age">Idade: </label>
+            <input id="student-age" [(ngModel)]="student.age" placeholder="Idade">
+            
+            <label for="student-grade">Ano: </label>
+            <input id="student-grade" [(ngModel)]="student.grade" placeholder="Ano">
+
+            <label for="student-course">Curso: </label>
+            <input id="student-course" [(ngModel)]="student.course" placeholder="Curso">
+      </div>
+
+</div>

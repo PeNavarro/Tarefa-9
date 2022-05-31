@@ -1,0 +1,23 @@
+.detalhes{
+      position: absolute;
+      bottom: 50%;
+      left: 2vw;
+      border-radius: 15px;
+      padding: 2rem 2rem;
+      transform: translateY(50%);
+      background-color: #f1ffac;
+}
+
+.dados{
+      display: flex;
+      flex-direction: column; 
+}
+
+.dados label{
+      margin-bottom: 8px;
+      margin-top: 15px;
+}
+
+.detalhes h2{
+      margin: 0;
+}

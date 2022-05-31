@@ -1,0 +1,32 @@
+.estudantes{
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      box-shadow: 0px 5px 18px -7px rgba(0,0,0,0.95);
+      border-radius: 15px;
+      padding: 1.5rem 3rem;
+}
+
+.estudantes::before{
+      content: 'Estudantes';
+      color: black;
+      font-size: 2vw;
+      font-weight: bold;
+}
+
+.estudantes li{
+      list-style: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+.estudantes li button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+
+.estudantes li button span{
+      font-size: 1.5vw;
+}
