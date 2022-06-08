@@ -3,14 +3,15 @@
       right: 0;
       top: 0;
       bottom: 0;
-      padding: 2rem;
-      background-color: #8a8a8a4f;
+      padding: 5rem 2rem 2rem 2rem;
+      background-color: #ff4500;
       overflow-y: scroll;
+      color: white;
 }
 
 .clear{
       border-radius: 5px;
-      background-color: rgb(211, 66, 66);
+      background-color: rgb(229, 229, 229);
       padding: 10px 15px;
       border: none;
       cursor: pointer;
@@ -22,4 +23,5 @@
       margin-top: 10px;
       margin-bottom: 10px;
       border-radius: 5px;
+      color: black;
 }

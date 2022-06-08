@@ -16,4 +16,10 @@ export class StudentService {
     this.messageService.add('StudentService: estudantes buscados');
     return students;
   }
+
+  getStudent(id: number): Observable<Student> {  
+    const student = STUDENTS.find(h => h.id === id)!;
+    this.messageService.add(`StudentService: estudante ${id} buscado`);
+    return of(student);
+  }
 }

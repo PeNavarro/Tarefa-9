@@ -1,9 +1,7 @@
 <ul class="estudantes">
   <li *ngFor="let student of students">
-    <button [class.selected]="student === selectedStudent" type="button" (click)="onSelect(student)">
-      <span class="name">{{student.name}}</span>
-    </button>
+    <a routerLink="/detail/{{student.id}}">
+      <span class="badge">{{student.id}}</span> {{student.name}}
+    </a>
   </li>
 </ul>
-
-<app-student-detail [student]="selectedStudent"></app-student-detail>

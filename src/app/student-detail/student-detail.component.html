@@ -1,5 +1,7 @@
 <div class="detalhes" *ngIf="student">
 
+      <button type="button" (click)="goBack()">Voltar</button>
+
       <h2>Detalhes do aluno: {{student.name}}</h2>
       <div><span>id: </span>{{student.id}}</div>
       <div class="dados">
@@ -15,5 +17,5 @@
             <label for="student-course">Curso: </label>
             <input id="student-course" [(ngModel)]="student.course" placeholder="Curso">
       </div>
-
+      
 </div>

@@ -25,6 +25,16 @@
       background-color: transparent;
       border: none;
       cursor: pointer;
+      text-decoration: none;
+}
+
+.estudantes li a{
+      text-decoration: none;
+      transition: all ease-in-out 200ms;
+}
+
+.estudantes li a:hover{
+      padding-left: 15px;
 }
 
 .estudantes li button span{

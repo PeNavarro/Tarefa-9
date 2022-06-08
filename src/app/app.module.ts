@@ -8,13 +8,15 @@ import { StudentsComponent } from './students/students.component';
 import { FormsModule } from '@angular/forms';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentsComponent,
     StudentDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -24,4 +26,5 @@ import { MessagesComponent } from './messages/messages.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
