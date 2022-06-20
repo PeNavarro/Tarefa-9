@@ -1,0 +1,40 @@
+.inputStudent{
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      left: 5%;
+      box-shadow: 0px 5px 18px -7px rgba(0,0,0,0.95);
+      border-radius: 15px;
+      padding: 1.5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+}
+
+.inputStudent h2{
+      margin-bottom: 1rem;
+}
+
+.inputStudent button{
+      margin-top: 2rem;
+      width: fit-content;
+      background-color: orangered;
+      outline: none;
+      color: white;
+      border-radius: 8px;
+      border: 0;
+      padding: 15px 20px;
+      font-weight: 700;
+}
+
+.inputStudent ul{
+      list-style: none;
+      margin-top: 2rem;
+}
+
+.inputStudent a{
+      color: orangered;
+      margin-top: 1rem;
+      text-decoration: none;
+      font-weight: 700;
+}

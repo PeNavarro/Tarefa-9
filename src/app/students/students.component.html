@@ -3,5 +3,17 @@
     <a routerLink="/detail/{{student.id}}">
       <span class="badge">{{student.id}}</span> {{student.name}}
     </a>
+    <button type="button" class="delete" title="delete student" (click)="delete(student)">x</button>
   </li>
 </ul>
+
+<div class="inputStudent">
+  <h2>Adicionar estudante</h2>
+  <label for="new-student">Nome do estudante: </label>
+  <input id="new-student" #studentName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button type="button" class="add-button" (click)="add(studentName.value); studentName.value=''">
+    Adicionar
+  </button>
+</div>

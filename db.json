@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "João",
+      "age": "18",
+      "grade": "3º Semestre",
+      "course": "Arquitetura"
+    },
+    {
+      "id": 2,
+      "name": "Pedroca",
+      "age": 21,
+      "grade": "4º Semestre",
+      "course": "ADS"
+    },
+    {
+      "id": 3,
+      "name": "Lucas",
+      "age": 20,
+      "grade": "5º Semestre",
+      "course": "Eventos"
+    },
+    {
+      "id": 4,
+      "name": "Iago",
+      "age": 24,
+      "grade": "5º Semestre",
+      "course": "GTI"
+    }
+  ]
+}

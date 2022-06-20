@@ -44,3 +44,8 @@
       background-color: rgba(255, 68, 0, 0.418);
       color: #000;
 }
+
+.saveButton{
+      float: right;
+      margin-top: 1rem;
+}
